@@ -1,8 +1,5 @@
 <div align="center">
-  <p>
-    <img alt="Evermore" src="Frontend/public/assets/images/logo.png" width="140" />
-  </p>
-  <h1>Evermore</h1>
+  <h1><a href="https://evermorebrand.com">evermore</a></h1>
   <p>Full-stack ecommerce website with a React (Vite) frontend and a PHP/MySQL backend.</p>
 
   <p>
