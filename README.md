@@ -94,22 +94,6 @@ npm run dev
 
 The app runs at http://localhost:5173.
 
-<h2>Screenshots</h2>
-<p>
-  <img alt="Home" src="docs/screenshots/home.png" width="48%" />
-  <img alt="Products" src="docs/screenshots/products.png" width="48%" />
-</p>
-<p>
-  <img alt="Cart" src="docs/screenshots/cart.png" width="48%" />
-  <img alt="Admin" src="docs/screenshots/admin.png" width="48%" />
-</p>
-
-<h2>Notes</h2>
-<ul>
-  <li>Frontend API base URL defaults to <code>/backend</code> and uses a Vite proxy in dev.</li>
-  <li><code>.env</code> and <code>backend/config/secrets.php</code> are ignored by git.</li>
-</ul>
-
 <h2>Deployment</h2>
 <ul>
   <li>Ensure production env vars are set for DB and SMTP.</li>
