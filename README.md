@@ -1,4 +1,7 @@
 <div align="center">
+  <p>
+    <img alt="Evermore" src="Frontend/public/assets/images/logo.png" width="140" />
+  </p>
   <h1>Evermore</h1>
   <p>Full-stack ecommerce website with a React (Vite) frontend and a PHP/MySQL backend.</p>
 
@@ -25,6 +28,7 @@
   <br />
   <ul>
     <li>Product listing, categories, and search</li>
+    <li>Custom design builder</li>
     <li>Cart and checkout flow</li>
     <li>User auth and profile management</li>
     <li>Admin area for products/orders</li>
@@ -71,9 +75,9 @@ EVERMORE_IS_PRODUCTION=false
 EVERMORE_DB_MODE=local
 EVERMORE_LOCAL_DB_HOST=localhost
 EVERMORE_LOCAL_DB_PORT=3306
-EVERMORE_LOCAL_DB_USER=root
-EVERMORE_LOCAL_DB_PASS=
-EVERMORE_LOCAL_DB_NAME=evermore_db
+EVERMORE_LOCAL_DB_USER=your_user
+EVERMORE_LOCAL_DB_PASS=your_password
+EVERMORE_LOCAL_DB_NAME=your_database
 ```
 
 <h3>4) Run backend</h3>
@@ -94,7 +98,14 @@ npm run dev
 The app runs at http://localhost:5173.
 
 <h2>Screenshots</h2>
-<p>Add screenshots or a short demo GIF here.</p>
+<p>
+  <img alt="Home" src="docs/screenshots/home.png" width="48%" />
+  <img alt="Products" src="docs/screenshots/products.png" width="48%" />
+</p>
+<p>
+  <img alt="Cart" src="docs/screenshots/cart.png" width="48%" />
+  <img alt="Admin" src="docs/screenshots/admin.png" width="48%" />
+</p>
 
 <h2>Notes</h2>
 <ul>
